@@ -140,6 +140,24 @@ main{
 }
 
 
+.third.section-container{
+    height: 400px;
+    margin-top: 100px;
+    background-color: cornflowerblue;
+}
+
+.t-col1{
+    width: 60%;
+    background-color: lime;
+}
+
+.t-col2{
+    width: 40%;
+    background-color: limegreen;
+}
+
+
+/* Footer */
 footer{
     height: 200px;
     width: 100%;
