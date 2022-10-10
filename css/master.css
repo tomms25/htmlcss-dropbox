@@ -43,7 +43,7 @@ header{
 }
 
 .jumbotron-container{
-    height: 500px;
+    height: 600px;
     margin: 0px 200px 20px 300px;
     display: flex;
     flex-direction: column;
@@ -72,14 +72,15 @@ header{
 
 .jb-col2{
     height: 300px;
-    width: 70%;
+    width: 80%;
     background-color: bisque;
 
 }
 
 .jb-col2 img{
-    min-height: 300px;
+    min-height: 320px;
     max-width: 100%;
+    object-fit: cover;
     
 }
 
@@ -87,6 +88,31 @@ main{
     height: 1500vh;
     width: 100%;
     background-color: white;
+}
+
+.first.section-container{
+    height: 800px;
+    margin: 100px 300px 50px 300px;
+    background-color: antiquewhite;
+}
+
+.first.section-container h2{
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.first.section-container span{
+    margin-bottom: 30px;
+}
+
+
+.subscription-plans{
+    height: 620px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: aquamarine;
 }
 
 footer{
