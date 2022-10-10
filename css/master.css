@@ -5,8 +5,12 @@
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
     font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: white;
 }
 
 .container-topbar{
@@ -20,7 +24,12 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     z-index: 600;
+}
+
+.right.stuff{
+    margin-left: 20px;
 }
 
 .jumbotron{
@@ -28,6 +37,50 @@ body{
     width: 100%;
     background-color: #b4d0e7;
     margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-container{
+    height: 500px;
+    margin: 0px 200px 20px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jb-img{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.jb-text h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.jb-col1{
+    height: 260px;
+    width: 40%;
+    background-color: red;
+}
+
+.jb-col2{
+    height: 300px;
+    width: 70%;
+    background-color: bisque;
+
+}
+
+.jb-col2 img{
+    min-height: 300px;
+    max-width: 100%;
+    
 }
 
 main{
