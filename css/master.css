@@ -84,15 +84,22 @@ header{
     
 }
 
+
+/* Inizio css main */
+
 main{
     height: 1500vh;
-    width: 100%;
+    /* width: 100%; */
+    margin: 100px 300px 50px 300px;
     background-color: white;
 }
 
+
+/* Prima sezione */
+
 .first.section-container{
     height: 800px;
-    margin: 100px 300px 50px 300px;
+    
     background-color: antiquewhite;
 }
 
@@ -114,6 +121,24 @@ main{
     align-items: stretch;
     background-color: aquamarine;
 }
+
+.plan-col{
+    background-color: red;
+}
+
+
+
+/* Seconda sezione */
+
+.second.section-container{
+    height: 200px;
+    margin-top: 50px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 footer{
     height: 200px;
