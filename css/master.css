@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-topbar{
+    background-color: white;
+    border-bottom: 4px solid #d4dde4;
+    height: 90px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 600;
+}
+
+.jumbotron{
+    height: 500px;
+    width: 100%;
+    background-color: #b4d0e7;
+    margin-top: 90px;
+}
+
+main{
+    height: 1500vh;
+    width: 100%;
+    background-color: white;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
