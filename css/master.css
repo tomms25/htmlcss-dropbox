@@ -185,6 +185,7 @@ input{
 
 .subscription-plans{
     height: 950px;
+    width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -194,18 +195,18 @@ input{
 
 .plan-col1{
     height: 950px;
-    width: 255px;
+    width: 30%;
     /* display: flex;
     justify-content: center;
     align-items: flex-start; */
     border: 1px solid #d4dde4;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
 
 .intestazione{
     height: 24px;
-    width: 255px;
+    width: 100%;
     /* background-color: yellow; */
     border-bottom: 1px solid #d4dde4;
 }
@@ -216,13 +217,14 @@ input{
 }
 
 .contenuto-col{
-    margin-left: 25px;
+    margin-left: 15px;
     margin-top: 30px;
 
 }
 
 .pacchetto{
     margin-top: 40px;
+    height: 200px;
 }
 
 .pacchetto span{
@@ -230,28 +232,45 @@ input{
     font-size: 12px;
 }
 
+
+#box-button{
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+
 .prova{
-    margin-top: 30px;
+    font-size: 10px;
 }
 
 .punti-salienti{
+    height: 300px;
     margin-top: 130px;
+}
+
+.punti-salienti span{
+    font-size: 15px;
+}
+
+.punti-salienti i{
+    color: #1865ff;
 }
 
 
 .plan-col2{
     height: 950px;
-    width: 255px;
+    width: 30%;
     border: 1px solid #d4dde4;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
 
 .plan-col3{
     height: 950px;
-    width: 255px;
+    width: 30%;
     border: 1px solid #d4dde4;
-    margin-right: 30px;
 }
 
 h3{
@@ -282,6 +301,10 @@ h3{
     margin-right: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+.cont-text{
+    width: 60%;
 }
 
 #first-p{
@@ -342,12 +365,12 @@ h3{
 .fourth.section-container{
     height: 800px;
     margin-top: 100px;
-    background-color: dimgray;
+    /* background-color: dimgray; */
 }
 
 
 .fourth.section-container h2{
-    font-size: 27px;
+    font-size: 30px;
 }
 
 
@@ -358,25 +381,43 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:red ;
-    border: 1px solid black;
+    /* background-color:red ; */
+    /* border: 1px solid black; */
 }
 
-.card1{
-    height: 350px;
-    width: 270px;
+.card{
+    height: 360px;
+    width: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.card img{
+    max-width: 90%;
+    margin-bottom: 10px;
+}
+
+.card h4{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    width: 80%;
+    font-size: 10px;
 }
 
 .cards-line2{
     height: 350px;
+    margin-top: 50px;
+    margin-bottom: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    /* background-color:red ;
+    border: 1px solid black; */
 }
 
 
@@ -384,11 +425,20 @@ h3{
 
 .fifth.section-container{
     height: 200px;
-    margin-top: 100px;
-    background-color: violet;
+    width: 50%;
+    margin-top: 150px;
+    /* background-color: violet; */
 }
 
+.fifth.section-container h2{
+    margin-bottom: 40px;
+}
 
+.fifth.section-container a{
+    color:cornflowerblue
+}
+
+/* Sesta sezione */
 
 /* Footer */
 footer{
