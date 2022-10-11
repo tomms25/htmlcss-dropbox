@@ -146,26 +146,27 @@ main{
 }
 
 .main-container{
-    height: 1500vh;
-    max-width: 100%;
-    margin: 150px 190px 50px 250px;
+    /* max-width: 100%;
+    margin: 150px 190px 50px 250px; */
 }
 
 
 /* Prima sezione */
 
-.first.section-container{
-    height: 1000px;
-    
+.payments{
+    /* height: 1000px; */
     /* background-color: antiquewhite; */
+    margin: 0 auto;
+    margin-top: 200px;
+    max-width: 700px;
 }
 
-.first.section-container h2{
+.payments h2{
     font-size: 35px;
     margin-bottom: 60px;
 }
 
-.first.section-container span{
+.payments span{
     margin-bottom: 30px;
 }
 
@@ -291,13 +292,17 @@ h3{
 
 /* Seconda sezione */
 
-.second.section-container{
+.enterprise-container{
     height: 200px;
     margin-top: 250px;
     /* background-color: bisque; */
     /* display: flex;
     justify-content: space-between;
     align-items: center; */
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 100px;
+    margin-bottom: 0;
     border: 1px solid #d4dde4;
 }
 
@@ -333,8 +338,9 @@ h3{
 /* Terza sezione */
 
 .third.section-container{
-    height: 400px;
+    margin: 0 auto;
     margin-top: 100px;
+    max-width: 700px;
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -374,14 +380,16 @@ h3{
 
 
 /* Quarta sezione */
-.fourth.section-container{
-    height: 800px;
+.tool-container{
+    /* height: 800px; */
+    margin: 0 auto;
     margin-top: 100px;
+    max-width: 700px;
     /* background-color: dimgray; */
 }
 
 
-.fourth.section-container h2{
+.tool-container h2{
     font-size: 30px;
 }
 
@@ -435,18 +443,19 @@ h3{
 
 /* Quinta sezione */
 
-.fifth.section-container{
-    height: 200px;
-    width: 50%;
+.users-container{
+    /* height: 200px; */
+    max-width: 700px;
+    margin: 0 auto;
     margin-top: 150px;
     /* background-color: violet; */
 }
 
-.fifth.section-container h2{
+.users-container h2{
     margin-bottom: 40px;
 }
 
-.fifth.section-container a{
+.users-container a{
     color:cornflowerblue
 }
 
