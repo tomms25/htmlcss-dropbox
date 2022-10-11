@@ -453,6 +453,7 @@ h3{
 /* Sesta sezione */
 .sixth.section-container{
     height: 600px;
+    max-width: 100%;
     background-color: green;
 }
 
