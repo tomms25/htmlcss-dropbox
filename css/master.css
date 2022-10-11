@@ -142,10 +142,13 @@ a{
 /* Inizio css main */
 
 main{
+    background-color: white;
+}
+
+.main-container{
     height: 1500vh;
     max-width: 100%;
     margin: 150px 190px 50px 250px;
-    background-color: white;
 }
 
 
@@ -240,9 +243,18 @@ input{
     font-size: 12px;
 }
 
+#box-button-c{
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 50px;
+    font-size: 12px;
+}
+
 
 .prova{
     font-size: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 .punti-salienti{
@@ -439,6 +451,11 @@ h3{
 }
 
 /* Sesta sezione */
+.sixth.section-container{
+    height: 600px;
+    background-color: green;
+}
+
 
 /* Footer */
 footer{
