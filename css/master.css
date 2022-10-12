@@ -172,7 +172,7 @@ main{
 
 
 label{
-    padding-left: 20px;
+    padding-left: 10px;
     cursor: pointer;
     font-size: 15px;
 }
@@ -180,8 +180,8 @@ label{
 input{
     top: 0;
     margin-right: 10px;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background-color: #eee;
     border-radius: 50%;
     cursor: pointer;   
@@ -251,6 +251,25 @@ input{
     font-size: 12px;
 }
 
+.oppure{
+    margin-top: 20px;
+}
+
+.oppure a{
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+.oppure span{
+    font-size: 12px;
+}
+
+.oppure hr{
+    margin-top: 40px;
+    width: 50px;
+    color: lightgrey;
+}
+
 
 .prova{
     font-size: 10px;
@@ -260,11 +279,11 @@ input{
 
 .punti-salienti{
     height: 300px;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .punti-salienti span{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .punti-salienti i{
@@ -332,6 +351,10 @@ h3{
 .cont-text p{
    font-size: 10px;
    margin-bottom: 20px;
+}
+
+.ufficio-vendite{
+    margin-top: 4px;
 }
 
 
@@ -460,12 +483,59 @@ h3{
 }
 
 /* Sesta sezione */
-.sixth.section-container{
-    height: 500px;
+.carousel-container{
+    height: 400px;
     max-width: 100%;
     margin-top: 100px;
     background-color: green;
 }
+
+.right-menu{
+    height: 500px;
+    max-width: calc(100%/3);
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right-menu .designit{
+    width: 50%;
+}
+
+.designit img{
+    align-self: center;
+    max-width: 100%;
+}
+
+.right-menu .arizona{
+    width: 50%;
+}
+
+.arizona img{
+    align-self: center;
+    max-width: 100%;
+}
+
+.right-menu .uni-florida{
+    width: 50%;
+}
+
+.uni-florida img{
+    align-self: center;
+    max-width: 100%;
+}
+
+.right-menu .topps{
+    width: 50%;
+}
+
+.topps img{
+    align-self: center;
+    max-width: 100%;
+}
+
+
 
 /* Settima sezione */
 .free-trial-container{
@@ -516,6 +586,7 @@ h3{
 .faq.box1{
     border-top: 1px solid #b2b2b2;
     padding: 20px;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -525,6 +596,7 @@ h3{
 .faq.box2{
     border-top: 1px solid #b2b2b2;
     padding: 20px;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -534,6 +606,7 @@ h3{
     border-top: 1px solid #b2b2b2;
     border-bottom: 1px solid #b2b2b2;
     padding: 20px;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
