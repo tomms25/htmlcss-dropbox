@@ -537,10 +537,27 @@ h3{
 .midland-menu{
     height: 400px;
     width: calc(100%/3);
-    background-color:bisque;
+    background-color:#f5f5f5;
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+.mid-cont h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.mid-cont span{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+
+
 
 .left-menu{
     height: 400px;
