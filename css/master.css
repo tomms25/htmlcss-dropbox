@@ -484,65 +484,95 @@ h3{
 
 /* Sesta sezione */
 .carousel-container{
-    height: 400px;
+    /* height: 400px; */
     max-width: 100%;
     margin-top: 100px;
-    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
 }
 
 .right-menu{
-    height: 500px;
-    max-width: calc(100%/3);
-    background-color: aqua;
+    height: 400px;
+    width: calc(100%/3);
+    /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
 }
 
-.right-menu .designit{
+.right-menu .square-menu{
+    height: 50%;
     width: 50%;
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
-.designit img{
-    max-width: 100%;
+.square-menu img{
+    height: 100%;
+    width: 100%;
+    max-width: 100px;
+    filter: brightness(0) invert(1);
 }
 
-.right-menu .arizona{
+.square-menu.designit{
+    background-color: #a2d39b;
+}
+
+.square-menu.arizona{
+    background-color: #61082b;
+}
+
+.square-menu.uni-florida{
+    background-color: #0093ce;
+}
+
+.square-menu.topps{
+    background-color: #ff1c1c;
+}
+
+
+
+.midland-menu{
+    height: 400px;
+    width: calc(100%/3);
+    background-color:bisque;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-menu{
+    height: 400px;
+    width: calc(100%/3);
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-menu .square-menu{
+    height: 50%;
     width: 50%;
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
-.arizona img{
-    max-width: 100%;
-    
+.square-menu.bicycle{
+    background-color: #d5001f;
 }
 
-.right-menu .uni-florida{
-    width: 50%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+.square-menu.hearst{
+    background-color: #b4d0e7;
 }
 
-.uni-florida img{
-    max-width: 100%;
+.square-menu.lonely-planet{
+    background-color: #0d2481;
 }
 
-.right-menu .topps{
-    width: 50%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+.square-menu.channel{
+    background-color: #ffd830;
 }
-
-.topps img{
-    max-width: 100%;
-}
-
 
 
 /* Settima sezione */
