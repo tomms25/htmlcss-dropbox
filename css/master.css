@@ -495,43 +495,51 @@ h3{
     max-width: calc(100%/3);
     background-color: aqua;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
 }
 
 .right-menu .designit{
     width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .designit img{
-    align-self: center;
     max-width: 100%;
 }
 
 .right-menu .arizona{
     width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .arizona img{
-    align-self: center;
     max-width: 100%;
+    
 }
 
 .right-menu .uni-florida{
     width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .uni-florida img{
-    align-self: center;
     max-width: 100%;
 }
 
 .right-menu .topps{
     width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .topps img{
-    align-self: center;
     max-width: 100%;
 }
 
