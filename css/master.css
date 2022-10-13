@@ -392,6 +392,7 @@ h3{
 .tcol2-text p{
     margin-top: 20px;
     margin-bottom: 30px;
+    font-size: 12px;
 }
 
 .tcol2-text a{
@@ -493,7 +494,9 @@ h3{
     /* background-color: green; */
 }
 
-.right-menu{
+/* Sesta sezione menù laterale */
+
+.left-menu{
     height: 400px;
     width: calc(100%/3);
     /* background-color: aqua; */
@@ -501,7 +504,7 @@ h3{
     flex-wrap: wrap;
 }
 
-.right-menu .square-menu{
+.left-menu .square-menu{
     height: 50%;
     width: 50%;
     padding: 10px;
@@ -524,15 +527,27 @@ h3{
     background-color: #61082b;
 }
 
-.square-menu.uni-florida{
-    background-color: #0093ce;
-}
-
 .square-menu.topps{
     background-color: #ff1c1c;
 }
 
+.uni-florida{
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #0093ce;
+    
+}
 
+.uni-florida img{
+    width: 70%;
+    align-self: center;
+    filter: brightness(0) invert(1);
+}
+
+/* Sesta sezione menù centrale */
 
 .midland-menu{
     height: 400px;
@@ -542,8 +557,6 @@ h3{
     flex-wrap: wrap;
 }
 
-
-
 .mid-cont h2{
     margin-top: 20px;
     margin-left: 20px;
@@ -552,14 +565,35 @@ h3{
 
 .mid-cont span{
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
+.subtext{
+    font-size: 12px;
+    margin-left: 24px;
+}
 
+.midland-menu hr{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 80px;
+    color: lightgray;
+}
 
+.mid-paragraph{
+    width: 90%;
+}
 
+.mid-paragraph p{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
 
-.left-menu{
+/* Sesta sezione menù di laterale */
+
+.right-menu{
     height: 400px;
     width: calc(100%/3);
     /* background-color: aqua; */
@@ -567,7 +601,7 @@ h3{
     flex-wrap: wrap;
 }
 
-.left-menu .square-menu{
+.right-menu .square-menu{
     height: 50%;
     width: 50%;
     padding: 10px;
